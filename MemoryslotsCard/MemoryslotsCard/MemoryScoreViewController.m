@@ -169,7 +169,7 @@
        
         if (self.Currentbtn.tag==sender.tag&&self.Currentbtn!=sender) {
             // 创建翻转动画
-            self.consint=self.consint+=1;
+            self.consint=self.consint+=2;
             
             self.coinslabb.text=[NSString stringWithFormat:@"%d",self.consint];
                 [UIView transitionWithView:sender

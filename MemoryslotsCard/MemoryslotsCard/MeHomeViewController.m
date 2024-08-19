@@ -34,7 +34,7 @@
 
 
 - (IBAction)mysharuibutton:(id)sender {
-    NSURL *urlToShare = [NSURL URLWithString:@"https://apps.apple.com/app/te-patti-kill-poker/id6504505318"];
+    NSURL *urlToShare = [NSURL URLWithString:@"https://apps.apple.com/app/PattiEggGame/id6642676691"];
     
  
     NSMutableArray * mutableArrayab = [NSMutableArray array];
