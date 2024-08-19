@@ -109,8 +109,10 @@
     self.timelab.text=[NSString stringWithFormat:@"%ld",(long)self.timeint];
 }
 - (void)timegave {
+    
+    NSString *tip=[NSString stringWithFormat:@"Game over Congratulations on winning %d coins in this game",self.consint];
        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Tips"
-                                                                                message:@"Game over"
+                                                                                message:tip
                                                                          preferredStyle:UIAlertControllerStyleAlert];
        UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
           
@@ -168,7 +170,7 @@
         
        
         if (self.Currentbtn.tag==sender.tag&&self.Currentbtn!=sender) {
-            // 创建翻转动画
+            
             self.consint=self.consint+=2;
             
             self.coinslabb.text=[NSString stringWithFormat:@"%d",self.consint];
@@ -179,6 +181,8 @@
                                    
                     [sender setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%ld",(long)sender.tag+10]] forState:UIControlStateNormal];
                     
+                    
+                    
                                 }
                                 completion:^(BOOL finished) {
                                   
@@ -187,7 +191,7 @@
            
             sender.userInteractionEnabled = NO;
             self.Currentbtn.userInteractionEnabled = NO;
-               [UIView animateWithDuration:0.2
+               [UIView animateWithDuration:1.0
                                 animations:^{
                    self.Currentbtn.alpha = 0.0;
                                 }
@@ -197,7 +201,7 @@
                                     }
                                 }];
            
-               [UIView animateWithDuration:0.2
+               [UIView animateWithDuration:1.0
                                 animations:^{
                    sender.alpha = 0.0;
                                 }

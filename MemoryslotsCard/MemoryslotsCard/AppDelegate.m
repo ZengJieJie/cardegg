@@ -30,9 +30,7 @@
     [self.window makeKeyAndVisible];
   
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-   
- 
-   
+
     NSArray *myArrayKey = [defaults arrayForKey:@"myArrayKey"];
     NSString *mypoints = [defaults stringForKey:@"mypoints"];
     if (!myArrayKey) {
@@ -40,11 +38,9 @@
 
         [defaults setObject:array forKey:@"myArrayKey"];
     }
-    if ([mypoints isEqual:NULL]) {
-        NSString *myString = @"10";
+    if (!mypoints) {
+        NSString *myString = @"120";
         [defaults setObject:myString forKey:@"mypoints"];
-
-    
     }
     [defaults synchronize];
     return YES;

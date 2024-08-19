@@ -96,11 +96,11 @@
                        animations:^{
         sender.userInteractionEnabled = NO;
         if (sender.tag==1) {
-            [sender setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"01"]] forState:UIControlStateNormal];
+            [sender setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"00001"]] forState:UIControlStateNormal];
         }else{
             self.coinsint=self.coinsint+10;
             self.coslab.text=[NSString stringWithFormat:@"%d",self.coinsint];
-            [sender setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"00001"]] forState:UIControlStateNormal];
+            [sender setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"01"]] forState:UIControlStateNormal];
             NSString *tis=@"";
             switch (self.countcoin) {
                 case 1:
