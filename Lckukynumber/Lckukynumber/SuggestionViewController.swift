@@ -49,6 +49,8 @@ class SuggestionViewController: LckukynumberBaseViewController {
        
         
         self.LckyNumberjian = RandomgenerationLckyNumber(between: 2, and: 5)
+        
+        
         self.bRandomaray = bRandomarayRandomNumbers(count: 36, min: 1, max: 10)
         self.luckynumber.text="Lucky:\(self.LckyNumber) \(self.LckyNumberjian) \(self.LckyNumbersum)"
         self.marklab.text="Score:\(self.marksco)"
@@ -223,6 +225,7 @@ class SuggestionViewController: LckukynumberBaseViewController {
             if let ac = bRandomaray[lastButton.tag] as? NSNumber, let bc = bRandomaray[secondButton.tag] as? NSNumber {
                 let acbcSum = ac.intValue * bc.intValue
                 let acbcjian = bc.intValue / ac.intValue
+                
 
                 if (acbcSum == LckyNumber || acbcjian == LckyNumber||acbcSum == LckyNumberjian || acbcjian == LckyNumberjian||acbcSum == self.LckyNumbersum || acbcjian == LckyNumbersum) {
                     secondButton.isEnabled = true
