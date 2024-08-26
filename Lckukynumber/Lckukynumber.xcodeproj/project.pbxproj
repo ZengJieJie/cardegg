@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700EEB55DB686CB03ED56F36 /* Pods_Lckukynumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6873378ECB035CD7B08745B /* Pods_Lckukynumber.framework */; };
+		C60632462C46313400511A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632452C46313400511A1B /* AppDelegate.swift */; };
+		C606324A2C46313400511A1B /* LckukynumberStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632492C46313400511A1B /* LckukynumberStartViewController.swift */; };
+		C606324D2C46313400511A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C606324B2C46313400511A1B /* Main.storyboard */; };
+		C606324F2C46313700511A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C606324E2C46313700511A1B /* Assets.xcassets */; };
+		C60632522C46313700511A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60632502C46313700511A1B /* LaunchScreen.storyboard */; };
+		C606325D2C46313700511A1B /* LckukynumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606325C2C46313700511A1B /* LckukynumberTests.swift */; };
+		C60632672C46313700511A1B /* LckukynumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632662C46313700511A1B /* LckukynumberUITests.swift */; };
+		C60632692C46313700511A1B /* LckukynumberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632682C46313700511A1B /* LckukynumberUITestsLaunchTests.swift */; };
+		C60632772C46361000511A1B /* LUCKYGAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632752C46361000511A1B /* LUCKYGAViewController.swift */; };
+		C60632782C46361000511A1B /* LUCKYGAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60632762C46361000511A1B /* LUCKYGAViewController.xib */; };
+		C606327B2C46A69800511A1B /* LUckyruleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632792C46A69800511A1B /* LUckyruleViewController.swift */; };
+		C606327C2C46A69800511A1B /* LUckyruleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C606327A2C46A69800511A1B /* LUckyruleViewController.xib */; };
+		C606327F2C46A70A00511A1B /* SimplicityAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606327D2C46A70A00511A1B /* SimplicityAdditionViewController.swift */; };
+		C60632802C46A70A00511A1B /* SimplicityAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C606327E2C46A70A00511A1B /* SimplicityAdditionViewController.xib */; };
+		C60632832C46A72000511A1B /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632812C46A72000511A1B /* SuggestionViewController.swift */; };
+		C60632842C46A72000511A1B /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60632822C46A72000511A1B /* SuggestionViewController.xib */; };
+		C60632872C46AC9B00511A1B /* DoubleAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632852C46AC9B00511A1B /* DoubleAdditionViewController.swift */; };
+		C60632882C46AC9B00511A1B /* DoubleAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60632862C46AC9B00511A1B /* DoubleAdditionViewController.xib */; };
+		C606328B2C46ACB600511A1B /* LuckymultiplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60632892C46ACB600511A1B /* LuckymultiplicationViewController.swift */; };
+		C606328C2C46ACB600511A1B /* LuckymultiplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C606328A2C46ACB600511A1B /* LuckymultiplicationViewController.xib */; };
+		C606328E2C46B4E200511A1B /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C606328D2C46B4E200511A1B /* AppTrackingTransparency.framework */; };
+		C6D54E372C759BB1007FEFA1 /* HistoricalRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54E352C759BB1007FEFA1 /* HistoricalRecordViewController.m */; };
+		C6D54E382C759BB1007FEFA1 /* HistoricalRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D54E362C759BB1007FEFA1 /* HistoricalRecordViewController.xib */; };
+		C6D54E3C2C759C9A007FEFA1 /* HISTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54E3A2C759C9A007FEFA1 /* HISTableViewCell.m */; };
+		C6D54E3D2C759C9A007FEFA1 /* HISTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D54E3B2C759C9A007FEFA1 /* HISTableViewCell.xib */; };
+		C6D54F652C7827B9007FEFA1 /* LckukynumberWWebViJBri.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54F5E2C7827B7007FEFA1 /* LckukynumberWWebViJBri.m */; };
+		C6D54F662C7827B9007FEFA1 /* LckukynumberWebViewJBriBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54F5F2C7827B8007FEFA1 /* LckukynumberWebViewJBriBase.m */; };
+		C6D54F672C7827B9007FEFA1 /* LckukynumberPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54F602C7827B8007FEFA1 /* LckukynumberPrivacyViewController.m */; };
+		C6D54F682C7827B9007FEFA1 /* LckukynumberWebCofig_FUC.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D54F632C7827B8007FEFA1 /* LckukynumberWebCofig_FUC.m */; };
+		FF0DA9802C7C2F0400F252EB /* LckukynumberBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA97F2C7C2F0400F252EB /* LckukynumberBaseViewController.swift */; };
+		FF0DA9832C7C325D00F252EB /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9822C7C325D00F252EB /* UIViewController+Ext.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60632592C46313700511A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C606323A2C46313400511A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60632412C46313400511A1B;
+			remoteInfo = Lckukynumber;
+		};
+		C60632632C46313700511A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C606323A2C46313400511A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60632412C46313400511A1B;
+			remoteInfo = Lckukynumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0574DAC84E836361C05BF3C0 /* Pods-Lckukynumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lckukynumber.debug.xcconfig"; path = "Target Support Files/Pods-Lckukynumber/Pods-Lckukynumber.debug.xcconfig"; sourceTree = "<group>"; };
+		A1EA157B6C082B580D4A977F /* Pods-Lckukynumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lckukynumber.release.xcconfig"; path = "Target Support Files/Pods-Lckukynumber/Pods-Lckukynumber.release.xcconfig"; sourceTree = "<group>"; };
+		B6873378ECB035CD7B08745B /* Pods_Lckukynumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lckukynumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60632422C46313400511A1B /* Lckukynumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lckukynumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60632452C46313400511A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C60632492C46313400511A1B /* LckukynumberStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LckukynumberStartViewController.swift; sourceTree = "<group>"; };
+		C606324C2C46313400511A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C606324E2C46313700511A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60632512C46313700511A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C60632532C46313700511A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60632582C46313700511A1B /* LckukynumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LckukynumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606325C2C46313700511A1B /* LckukynumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LckukynumberTests.swift; sourceTree = "<group>"; };
+		C60632622C46313700511A1B /* LckukynumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LckukynumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60632662C46313700511A1B /* LckukynumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LckukynumberUITests.swift; sourceTree = "<group>"; };
+		C60632682C46313700511A1B /* LckukynumberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LckukynumberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C60632752C46361000511A1B /* LUCKYGAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUCKYGAViewController.swift; sourceTree = "<group>"; };
+		C60632762C46361000511A1B /* LUCKYGAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LUCKYGAViewController.xib; sourceTree = "<group>"; };
+		C60632792C46A69800511A1B /* LUckyruleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUckyruleViewController.swift; sourceTree = "<group>"; };
+		C606327A2C46A69800511A1B /* LUckyruleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LUckyruleViewController.xib; sourceTree = "<group>"; };
+		C606327D2C46A70A00511A1B /* SimplicityAdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplicityAdditionViewController.swift; sourceTree = "<group>"; };
+		C606327E2C46A70A00511A1B /* SimplicityAdditionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimplicityAdditionViewController.xib; sourceTree = "<group>"; };
+		C60632812C46A72000511A1B /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		C60632822C46A72000511A1B /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
+		C60632852C46AC9B00511A1B /* DoubleAdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAdditionViewController.swift; sourceTree = "<group>"; };
+		C60632862C46AC9B00511A1B /* DoubleAdditionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoubleAdditionViewController.xib; sourceTree = "<group>"; };
+		C60632892C46ACB600511A1B /* LuckymultiplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckymultiplicationViewController.swift; sourceTree = "<group>"; };
+		C606328A2C46ACB600511A1B /* LuckymultiplicationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LuckymultiplicationViewController.xib; sourceTree = "<group>"; };
+		C606328D2C46B4E200511A1B /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		C6D54E332C759BB0007FEFA1 /* Lckukynumber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lckukynumber-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6D54E342C759BB1007FEFA1 /* HistoricalRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoricalRecordViewController.h; sourceTree = "<group>"; };
+		C6D54E352C759BB1007FEFA1 /* HistoricalRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoricalRecordViewController.m; sourceTree = "<group>"; };
+		C6D54E362C759BB1007FEFA1 /* HistoricalRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoricalRecordViewController.xib; sourceTree = "<group>"; };
+		C6D54E392C759C9A007FEFA1 /* HISTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HISTableViewCell.h; sourceTree = "<group>"; };
+		C6D54E3A2C759C9A007FEFA1 /* HISTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HISTableViewCell.m; sourceTree = "<group>"; };
+		C6D54E3B2C759C9A007FEFA1 /* HISTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HISTableViewCell.xib; sourceTree = "<group>"; };
+		C6D54F5D2C7827B7007FEFA1 /* LckukynumberPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LckukynumberPrivacyViewController.h; sourceTree = "<group>"; };
+		C6D54F5E2C7827B7007FEFA1 /* LckukynumberWWebViJBri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LckukynumberWWebViJBri.m; sourceTree = "<group>"; };
+		C6D54F5F2C7827B8007FEFA1 /* LckukynumberWebViewJBriBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LckukynumberWebViewJBriBase.m; sourceTree = "<group>"; };
+		C6D54F602C7827B8007FEFA1 /* LckukynumberPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LckukynumberPrivacyViewController.m; sourceTree = "<group>"; };
+		C6D54F612C7827B8007FEFA1 /* LckukynumberWWebViJBri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LckukynumberWWebViJBri.h; sourceTree = "<group>"; };
+		C6D54F622C7827B8007FEFA1 /* LckukynumberWebCofig_FUC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LckukynumberWebCofig_FUC.h; sourceTree = "<group>"; };
+		C6D54F632C7827B8007FEFA1 /* LckukynumberWebCofig_FUC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LckukynumberWebCofig_FUC.m; sourceTree = "<group>"; };
+		C6D54F642C7827B9007FEFA1 /* LckukynumberWebViewJBriBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LckukynumberWebViewJBriBase.h; sourceTree = "<group>"; };
+		FF0DA97F2C7C2F0400F252EB /* LckukynumberBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LckukynumberBaseViewController.swift; sourceTree = "<group>"; };
+		FF0DA9812C7C325D00F252EB /* UIViewController+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		FF0DA9822C7C325D00F252EB /* UIViewController+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C606323F2C46313400511A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700EEB55DB686CB03ED56F36 /* Pods_Lckukynumber.framework in Frameworks */,
+				C606328E2C46B4E200511A1B /* AppTrackingTransparency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60632552C46313700511A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606325F2C46313700511A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5BAD09F0B9A6FE5A345B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C606328D2C46B4E200511A1B /* AppTrackingTransparency.framework */,
+				B6873378ECB035CD7B08745B /* Pods_Lckukynumber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60632392C46313400511A1B = {
+			isa = PBXGroup;
+			children = (
+				C60632442C46313400511A1B /* Lckukynumber */,
+				C606325B2C46313700511A1B /* LckukynumberTests */,
+				C60632652C46313700511A1B /* LckukynumberUITests */,
+				C60632432C46313400511A1B /* Products */,
+				DAF2B62AA8BB1E3FF93486AC /* Pods */,
+				AD5BAD09F0B9A6FE5A345B12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C60632432C46313400511A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60632422C46313400511A1B /* Lckukynumber.app */,
+				C60632582C46313700511A1B /* LckukynumberTests.xctest */,
+				C60632622C46313700511A1B /* LckukynumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60632442C46313400511A1B /* Lckukynumber */ = {
+			isa = PBXGroup;
+			children = (
+				C6D54F5D2C7827B7007FEFA1 /* LckukynumberPrivacyViewController.h */,
+				C6D54F602C7827B8007FEFA1 /* LckukynumberPrivacyViewController.m */,
+				C6D54F622C7827B8007FEFA1 /* LckukynumberWebCofig_FUC.h */,
+				C6D54F632C7827B8007FEFA1 /* LckukynumberWebCofig_FUC.m */,
+				C6D54F642C7827B9007FEFA1 /* LckukynumberWebViewJBriBase.h */,
+				C6D54F5F2C7827B8007FEFA1 /* LckukynumberWebViewJBriBase.m */,
+				C6D54F612C7827B8007FEFA1 /* LckukynumberWWebViJBri.h */,
+				C6D54F5E2C7827B7007FEFA1 /* LckukynumberWWebViJBri.m */,
+				FF0DA9812C7C325D00F252EB /* UIViewController+Ext.h */,
+				FF0DA9822C7C325D00F252EB /* UIViewController+Ext.m */,
+				C60632452C46313400511A1B /* AppDelegate.swift */,
+				C60632492C46313400511A1B /* LckukynumberStartViewController.swift */,
+				FF0DA97F2C7C2F0400F252EB /* LckukynumberBaseViewController.swift */,
+				C606324B2C46313400511A1B /* Main.storyboard */,
+				C606324E2C46313700511A1B /* Assets.xcassets */,
+				C60632502C46313700511A1B /* LaunchScreen.storyboard */,
+				C60632532C46313700511A1B /* Info.plist */,
+				C60632752C46361000511A1B /* LUCKYGAViewController.swift */,
+				C60632762C46361000511A1B /* LUCKYGAViewController.xib */,
+				C60632792C46A69800511A1B /* LUckyruleViewController.swift */,
+				C606327A2C46A69800511A1B /* LUckyruleViewController.xib */,
+				C606327D2C46A70A00511A1B /* SimplicityAdditionViewController.swift */,
+				C606327E2C46A70A00511A1B /* SimplicityAdditionViewController.xib */,
+				C60632812C46A72000511A1B /* SuggestionViewController.swift */,
+				C60632822C46A72000511A1B /* SuggestionViewController.xib */,
+				C60632892C46ACB600511A1B /* LuckymultiplicationViewController.swift */,
+				C606328A2C46ACB600511A1B /* LuckymultiplicationViewController.xib */,
+				C60632852C46AC9B00511A1B /* DoubleAdditionViewController.swift */,
+				C60632862C46AC9B00511A1B /* DoubleAdditionViewController.xib */,
+				C6D54E342C759BB1007FEFA1 /* HistoricalRecordViewController.h */,
+				C6D54E352C759BB1007FEFA1 /* HistoricalRecordViewController.m */,
+				C6D54E362C759BB1007FEFA1 /* HistoricalRecordViewController.xib */,
+				C6D54E332C759BB0007FEFA1 /* Lckukynumber-Bridging-Header.h */,
+				C6D54E392C759C9A007FEFA1 /* HISTableViewCell.h */,
+				C6D54E3A2C759C9A007FEFA1 /* HISTableViewCell.m */,
+				C6D54E3B2C759C9A007FEFA1 /* HISTableViewCell.xib */,
+			);
+			path = Lckukynumber;
+			sourceTree = "<group>";
+		};
+		C606325B2C46313700511A1B /* LckukynumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				C606325C2C46313700511A1B /* LckukynumberTests.swift */,
+			);
+			path = LckukynumberTests;
+			sourceTree = "<group>";
+		};
+		C60632652C46313700511A1B /* LckukynumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C60632662C46313700511A1B /* LckukynumberUITests.swift */,
+				C60632682C46313700511A1B /* LckukynumberUITestsLaunchTests.swift */,
+			);
+			path = LckukynumberUITests;
+			sourceTree = "<group>";
+		};
+		DAF2B62AA8BB1E3FF93486AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0574DAC84E836361C05BF3C0 /* Pods-Lckukynumber.debug.xcconfig */,
+				A1EA157B6C082B580D4A977F /* Pods-Lckukynumber.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60632412C46313400511A1B /* Lckukynumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606326C2C46313700511A1B /* Build configuration list for PBXNativeTarget "Lckukynumber" */;
+			buildPhases = (
+				B46676470E56A1EE6CB5E056 /* [CP] Check Pods Manifest.lock */,
+				C606323E2C46313400511A1B /* Sources */,
+				C606323F2C46313400511A1B /* Frameworks */,
+				C60632402C46313400511A1B /* Resources */,
+				917A0619D817D72084A14ADE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lckukynumber;
+			productName = Lckukynumber;
+			productReference = C60632422C46313400511A1B /* Lckukynumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60632572C46313700511A1B /* LckukynumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606326F2C46313700511A1B /* Build configuration list for PBXNativeTarget "LckukynumberTests" */;
+			buildPhases = (
+				C60632542C46313700511A1B /* Sources */,
+				C60632552C46313700511A1B /* Frameworks */,
+				C60632562C46313700511A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C606325A2C46313700511A1B /* PBXTargetDependency */,
+			);
+			name = LckukynumberTests;
+			productName = LckukynumberTests;
+			productReference = C60632582C46313700511A1B /* LckukynumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C60632612C46313700511A1B /* LckukynumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60632722C46313700511A1B /* Build configuration list for PBXNativeTarget "LckukynumberUITests" */;
+			buildPhases = (
+				C606325E2C46313700511A1B /* Sources */,
+				C606325F2C46313700511A1B /* Frameworks */,
+				C60632602C46313700511A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60632642C46313700511A1B /* PBXTargetDependency */,
+			);
+			name = LckukynumberUITests;
+			productName = LckukynumberUITests;
+			productReference = C60632622C46313700511A1B /* LckukynumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C606323A2C46313400511A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C60632412C46313400511A1B = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					C60632572C46313700511A1B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C60632412C46313400511A1B;
+					};
+					C60632612C46313700511A1B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C60632412C46313400511A1B;
+					};
+				};
+			};
+			buildConfigurationList = C606323D2C46313400511A1B /* Build configuration list for PBXProject "Lckukynumber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60632392C46313400511A1B;
+			productRefGroup = C60632432C46313400511A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60632412C46313400511A1B /* Lckukynumber */,
+				C60632572C46313700511A1B /* LckukynumberTests */,
+				C60632612C46313700511A1B /* LckukynumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60632402C46313400511A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606327C2C46A69800511A1B /* LUckyruleViewController.xib in Resources */,
+				C60632522C46313700511A1B /* LaunchScreen.storyboard in Resources */,
+				C60632842C46A72000511A1B /* SuggestionViewController.xib in Resources */,
+				C60632782C46361000511A1B /* LUCKYGAViewController.xib in Resources */,
+				C606324F2C46313700511A1B /* Assets.xcassets in Resources */,
+				C606324D2C46313400511A1B /* Main.storyboard in Resources */,
+				C6D54E3D2C759C9A007FEFA1 /* HISTableViewCell.xib in Resources */,
+				C60632882C46AC9B00511A1B /* DoubleAdditionViewController.xib in Resources */,
+				C6D54E382C759BB1007FEFA1 /* HistoricalRecordViewController.xib in Resources */,
+				C60632802C46A70A00511A1B /* SimplicityAdditionViewController.xib in Resources */,
+				C606328C2C46ACB600511A1B /* LuckymultiplicationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60632562C46313700511A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60632602C46313700511A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		917A0619D817D72084A14ADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lckukynumber/Pods-Lckukynumber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lckukynumber/Pods-Lckukynumber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lckukynumber/Pods-Lckukynumber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46676470E56A1EE6CB5E056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lckukynumber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C606323E2C46313400511A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606327F2C46A70A00511A1B /* SimplicityAdditionViewController.swift in Sources */,
+				C60632772C46361000511A1B /* LUCKYGAViewController.swift in Sources */,
+				C60632872C46AC9B00511A1B /* DoubleAdditionViewController.swift in Sources */,
+				C6D54E372C759BB1007FEFA1 /* HistoricalRecordViewController.m in Sources */,
+				C6D54E3C2C759C9A007FEFA1 /* HISTableViewCell.m in Sources */,
+				C6D54F662C7827B9007FEFA1 /* LckukynumberWebViewJBriBase.m in Sources */,
+				C6D54F682C7827B9007FEFA1 /* LckukynumberWebCofig_FUC.m in Sources */,
+				C60632832C46A72000511A1B /* SuggestionViewController.swift in Sources */,
+				C6D54F672C7827B9007FEFA1 /* LckukynumberPrivacyViewController.m in Sources */,
+				C606324A2C46313400511A1B /* LckukynumberStartViewController.swift in Sources */,
+				FF0DA9832C7C325D00F252EB /* UIViewController+Ext.m in Sources */,
+				C60632462C46313400511A1B /* AppDelegate.swift in Sources */,
+				C606327B2C46A69800511A1B /* LUckyruleViewController.swift in Sources */,
+				C6D54F652C7827B9007FEFA1 /* LckukynumberWWebViJBri.m in Sources */,
+				FF0DA9802C7C2F0400F252EB /* LckukynumberBaseViewController.swift in Sources */,
+				C606328B2C46ACB600511A1B /* LuckymultiplicationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60632542C46313700511A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606325D2C46313700511A1B /* LckukynumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606325E2C46313700511A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60632692C46313700511A1B /* LckukynumberUITestsLaunchTests.swift in Sources */,
+				C60632672C46313700511A1B /* LckukynumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C606325A2C46313700511A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60632412C46313400511A1B /* Lckukynumber */;
+			targetProxy = C60632592C46313700511A1B /* PBXContainerItemProxy */;
+		};
+		C60632642C46313700511A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60632412C46313400511A1B /* Lckukynumber */;
+			targetProxy = C60632632C46313700511A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C606324B2C46313400511A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C606324C2C46313400511A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C60632502C46313700511A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60632512C46313700511A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C606326A2C46313700511A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C606326B2C46313700511A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C606326D2C46313700511A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0574DAC84E836361C05BF3C0 /* Pods-Lckukynumber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lckukynumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LuckyCalculation Poker";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to send you a personalized experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.Lckukynumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Lckukynumber/Lckukynumber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C606326E2C46313700511A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1EA157B6C082B580D4A977F /* Pods-Lckukynumber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lckukynumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LuckyCalculation Poker";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to send you a personalized experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.Lckukynumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Lckukynumber/Lckukynumber-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C60632702C46313700511A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.number.LckukynumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lckukynumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lckukynumber";
+			};
+			name = Debug;
+		};
+		C60632712C46313700511A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.number.LckukynumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lckukynumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lckukynumber";
+			};
+			name = Release;
+		};
+		C60632732C46313700511A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.number.LckukynumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lckukynumber;
+			};
+			name = Debug;
+		};
+		C60632742C46313700511A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fupattzj.number.LckukynumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lckukynumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C606323D2C46313400511A1B /* Build configuration list for PBXProject "Lckukynumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606326A2C46313700511A1B /* Debug */,
+				C606326B2C46313700511A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606326C2C46313700511A1B /* Build configuration list for PBXNativeTarget "Lckukynumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606326D2C46313700511A1B /* Debug */,
+				C606326E2C46313700511A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606326F2C46313700511A1B /* Build configuration list for PBXNativeTarget "LckukynumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60632702C46313700511A1B /* Debug */,
+				C60632712C46313700511A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60632722C46313700511A1B /* Build configuration list for PBXNativeTarget "LckukynumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60632732C46313700511A1B /* Debug */,
+				C60632742C46313700511A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C606323A2C46313400511A1B /* Project object */;
+}

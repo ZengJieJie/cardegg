@@ -1,0 +1,30 @@
+PODS:
+  - Adjust (4.38.4):
+    - Adjust/Core (= 4.38.4)
+  - Adjust/Core (4.38.4)
+  - Masonry (1.1.0)
+  - ReachabilitySwift (5.2.3)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - Adjust
+  - Masonry
+  - ReachabilitySwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - Masonry
+    - ReachabilitySwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Adjust: afda46df69f035fd216310fb85f399c40c61830a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 3b49447f3307e4e7b13f0fd115efac0d1dff8bba
+
+COCOAPODS: 1.15.2
